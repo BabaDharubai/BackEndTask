@@ -1,0 +1,7 @@
+    
+spring:
+  application:
+    name: FLATTENPDF-GATEWAY
+
+  config:
+    import: configserver:http://localhost:8888
